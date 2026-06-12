@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "updatedAt": "2026-06-11",
+  "updatedAt": "2026-06-12",
   "entries": [
     {"name":"ppt-generator","runtime":"codex","confidence":"medium","reason":"PPT generation workflow is tool-oriented and likely portable to Codex agents.","signals":["generic skill structure","document automation"]},
     {"name":"guizang-ppt-skill","runtime":"codex","confidence":"medium","reason":"Web/PPT generation skill can reasonably run under Codex plugin-style skill loading.","signals":["generic skill structure","presentation workflow"]},
@@ -32,6 +32,8 @@
     {"name":"baoyu-image-gen","runtime":"codex","confidence":"medium","reason":"Image generation workflow maps to Codex tool execution.","signals":["image generation","tool-driven"]},
     {"name":"Humanizer-zh","runtime":"claude-code","confidence":"medium","reason":"Text refinement workflow is instruction-centric and likely fine in Claude Code.","signals":["text transformation","instruction-heavy"]},
     {"name":"financial-statements","runtime":"claude-code","confidence":"medium","reason":"Anthropic-hosted structured financial workflow likely aligns with Claude Code conventions.","signals":["anthropic source","structured documents"]},
-    {"name":"validate-idea","runtime":"claude-code","confidence":"medium","reason":"Reasoning-heavy validation workflow fits Claude Code style usage.","signals":["reasoning workflow","generic structure"]}
+    {"name":"validate-idea","runtime":"claude-code","confidence":"medium","reason":"Reasoning-heavy validation workflow fits Claude Code style usage.","signals":["reasoning workflow","generic structure"]},
+    {"name":"project-context-compactor","runtime":"codex","confidence":"high","reason":"The skill is explicitly written for Codex project context compression and recovery workflows.","signals":["codex-specific wording","context compaction workflow","local custom skill"]},
+    {"name":"prompt-optimizer","runtime":"codex","confidence":"medium","reason":"This local custom optimization skill is instruction-oriented but already authored for the user's Codex environment.","signals":["local custom skill","prompt transformation","system workflow"]}
   ]
 }

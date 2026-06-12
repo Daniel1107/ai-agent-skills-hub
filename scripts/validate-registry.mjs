@@ -7,8 +7,8 @@ const profilesRegistry = loadInstallProfilesRegistry();
 const skills = buildSkillRecords();
 const errors = [];
 
-if (skills.length !== 31) {
-  errors.push(`expected 31 skills, got ${skills.length}`);
+if (skills.length !== skillsRegistry.skills.length) {
+  errors.push(`skills record count mismatch: expected ${skillsRegistry.skills.length}, got ${skills.length}`);
 }
 
 const names = new Set();

@@ -20,6 +20,8 @@
 | ppt-generator | codex | medium | PPT generation workflow is tool-oriented and likely portable to Codex agents. |
 | ppt-master | codex | medium | Presentation build workflow is more aligned with Codex execution model. |
 | pptx-generator | codex | low | LobeHub-delivered skill is treated as Codex-first until mirrored content proves otherwise. |
+| project-context-compactor | codex | high | The skill is explicitly written for Codex project context compression and recovery workflows. |
+| prompt-optimizer | codex | medium | This local custom optimization skill is instruction-oriented but already authored for the user's Codex environment. |
 | skill-creator | codex | high | Skill authoring and repo manipulation align with Codex workflows. |
 | skill-vetter | codex | medium | Security gating benefits from Codex shell and inspection tooling. |
 | summarize | codex | medium | Summarization can run anywhere but is assigned to Codex to avoid overusing shared. |

@@ -20,6 +20,8 @@
 | [ppt-generator](ppt-generator/HUB.md) | document-automation | medium | repo-root-skill | mirror-local |
 | [ppt-master](ppt-master/HUB.md) | document-automation | medium | repo-subdir | mirror-local |
 | [pptx-generator](pptx-generator/HUB.md) | document-automation | medium | remote-manifest | mirror-local-manual |
+| [project-context-compactor](project-context-compactor/HUB.md) | agent-collaboration | low | local-path | mirror-local |
+| [prompt-optimizer](prompt-optimizer/HUB.md) | agent-collaboration | low | local-path | mirror-local |
 | [skill-creator](skill-creator/HUB.md) | agent-collaboration | high | repo-subdir | mirror-local |
 | [skill-vetter](skill-vetter/HUB.md) | agent-collaboration | high | repo-subdir | mirror-local |
 | [summarize](summarize/HUB.md) | agent-collaboration | medium | repo-subdir | mirror-local |

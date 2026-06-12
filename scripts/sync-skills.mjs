@@ -47,6 +47,10 @@ function main() {
         } else if (skill.syncMode === "remote-manifest") {
           syncRemoteManifest(skill, targetDir);
           status = "synced";
+        } else if (skill.syncMode === "local-path") {
+          mirrorLocalSkill(skill, targetDir);
+          commit = "local";
+          status = "synced";
         } else {
           const repoState = materializeRepo(skill);
           commit = repoState.commit;
@@ -170,6 +174,24 @@ function syncRemoteManifest(skill, targetDir) {
     fs.rmSync(path.join(targetDir, entry), { recursive: true, force: true });
   }
   fs.writeFileSync(path.join(targetDir, "SKILL.md"), response.stdout, "utf8");
+}
+
+function mirrorLocalSkill(skill, targetDir) {
+  const sourceDir = skill.upstreamRepo;
+  if (!fs.existsSync(sourceDir)) {
+    throw new Error(`local source not found: ${sourceDir}`);
+  }
+
+  fs.mkdirSync(targetDir, { recursive: true });
+  for (const entry of fs.readdirSync(targetDir)) {
+    if (entry === "HUB.md") continue;
+    fs.rmSync(path.join(targetDir, entry), { recursive: true, force: true });
+  }
+
+  const entries = fs.readdirSync(sourceDir, { withFileTypes: true }).filter((entry) => entry.name !== ".git");
+  for (const entry of entries) {
+    fs.cpSync(path.join(sourceDir, entry.name), path.join(targetDir, entry.name), { recursive: true });
+  }
 }
 
 function writeMirrorMetadata(skill, targetDir, commit) {

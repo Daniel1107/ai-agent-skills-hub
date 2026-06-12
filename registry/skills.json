@@ -1,14 +1,14 @@
 {
   "schemaVersion": "2.0.0",
-  "updatedAt": "2026-06-11",
-  "sourceLevels": ["openai-priority", "external-fallback", "lobehub"],
+  "updatedAt": "2026-06-12",
+  "sourceLevels": ["openai-priority", "external-fallback", "lobehub", "local-custom"],
   "categories": {
     "document-automation": "Document Automation",
     "dev-engineering": "Dev Engineering",
     "agent-collaboration": "Agent Collaboration",
     "specialized-media-context": "Specialized Media Context"
   },
-  "syncModes": ["repo-root-skill", "repo-subdir", "remote-manifest"],
+  "syncModes": ["repo-root-skill", "repo-subdir", "remote-manifest", "local-path"],
   "installModes": ["mirror-local", "mirror-local-manual"],
   "skills": [
     {"name":"ppt-generator","slug":"ppt-generator","category":"document-automation","sourceLevel":"external-fallback","upstreamRepo":"https://github.com/microsoft/ppt-generator","upstreamPath":".","defaultBranch":"main","syncMode":"repo-root-skill","installMode":"mirror-local","risk":"medium","enabled":false,"sourceNote":"Original upstream from the user source list returns GitHub 404 as of 2026-06-12."},
@@ -41,6 +41,8 @@
     {"name":"baoyu-image-gen","slug":"baoyu-image-gen","category":"specialized-media-context","sourceLevel":"external-fallback","upstreamRepo":"https://github.com/JimLiu/baoyu-skills","upstreamPath":"skills/baoyu-image-gen","defaultBranch":"main","syncMode":"repo-subdir","installMode":"mirror-local","risk":"high","enabled":true},
     {"name":"Humanizer-zh","slug":"humanizer-zh","category":"specialized-media-context","sourceLevel":"external-fallback","upstreamRepo":"https://github.com/op7418/Humanizer-zh","upstreamPath":".","defaultBranch":"main","syncMode":"repo-root-skill","installMode":"mirror-local","risk":"low","enabled":true},
     {"name":"financial-statements","slug":"financial-statements","category":"specialized-media-context","sourceLevel":"external-fallback","upstreamRepo":"https://github.com/anthropics/knowledge-work-plugins","upstreamPath":"finance/skills/financial-statements","defaultBranch":"main","syncMode":"repo-subdir","installMode":"mirror-local","risk":"medium","enabled":true},
-    {"name":"validate-idea","slug":"validate-idea","category":"specialized-media-context","sourceLevel":"external-fallback","upstreamRepo":"https://github.com/slavingia/skills","upstreamPath":"skills/validate-idea","defaultBranch":"main","syncMode":"repo-subdir","installMode":"mirror-local","risk":"low","enabled":true}
+    {"name":"validate-idea","slug":"validate-idea","category":"specialized-media-context","sourceLevel":"external-fallback","upstreamRepo":"https://github.com/slavingia/skills","upstreamPath":"skills/validate-idea","defaultBranch":"main","syncMode":"repo-subdir","installMode":"mirror-local","risk":"low","enabled":true},
+    {"name":"project-context-compactor","slug":"project-context-compactor","category":"agent-collaboration","sourceLevel":"local-custom","upstreamRepo":"C:\\Users\\yh605\\.agents\\skills\\.system\\project-context-compactor","upstreamPath":".","defaultBranch":"local","syncMode":"local-path","installMode":"mirror-local","risk":"low","enabled":true,"sourceNote":"Local custom Codex skill mirrored from the user's personal .agents skill directory."},
+    {"name":"prompt-optimizer","slug":"prompt-optimizer","category":"agent-collaboration","sourceLevel":"local-custom","upstreamRepo":"C:\\Users\\yh605\\.agents\\skills\\.system\\prompt-optimizer","upstreamPath":".","defaultBranch":"local","syncMode":"local-path","installMode":"mirror-local","risk":"low","enabled":true,"sourceNote":"Local custom Codex skill mirrored from the user's personal .agents skill directory."}
   ]
 }

@@ -104,6 +104,17 @@ foreach ($skill in $selectedSkills) {
     if ($skill.syncMode -eq 'remote-manifest') {
       $content = (Invoke-WebRequest -Uri $skill.upstreamRepo -UseBasicParsing).Content
       [System.IO.File]::WriteAllText((Join-Path $target 'SKILL.md'), $content, $utf8NoBom)
+    } elseif ($skill.syncMode -eq 'local-path') {
+      $sourceDir = $skill.upstreamRepo
+      if (!(Test-Path -LiteralPath $sourceDir)) {
+        throw "local source not found: $sourceDir"
+      }
+      Get-ChildItem -LiteralPath $sourceDir -Force |
+        Where-Object { $_.Name -ne '.git' } |
+        ForEach-Object {
+          Copy-Item -LiteralPath $_.FullName -Destination (Join-Path $target $_.Name) -Recurse -Force
+        }
+      $commit = 'local'
     } else {
       if (-not $repoCache.ContainsKey($skill.upstreamRepo)) {
         $repoKey = Get-RepoCacheKey $skill.upstreamRepo

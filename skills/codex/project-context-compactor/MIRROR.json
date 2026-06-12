@@ -1,0 +1,9 @@
+{
+  "name": "project-context-compactor",
+  "runtime": "codex",
+  "upstreamRepo": "C:\\Users\\yh605\\.agents\\skills\\.system\\project-context-compactor",
+  "upstreamPath": ".",
+  "syncMode": "local-path",
+  "syncedAt": "2026-06-12T11:57:51.808Z",
+  "lastSyncedCommit": "local"
+}

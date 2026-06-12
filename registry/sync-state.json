@@ -1,254 +1,270 @@
 {
-    "schemaVersion":  "1.0.0",
-    "updatedAt":  "2026-06-12T19:46:48",
-    "entries":  [
-                    {
-                        "name":  "ppt-generator",
-                        "syncStatus":  "disabled-invalid-source",
-                        "lastSyncedAt":  "2026-06-12T19:45:02",
-                        "lastSyncedCommit":  null,
-                        "upstreamTag":  null,
-                        "upstreamVersion":  null
-                    },
-                    {
-                        "name":  "guizang-ppt-skill",
-                        "syncStatus":  "synced",
-                        "lastSyncedAt":  "2026-06-11T13:24:30",
-                        "lastSyncedCommit":  "82fe5ae129e8c2a12e1155fcabed6703342749d6",
-                        "upstreamTag":  null,
-                        "upstreamVersion":  null
-                    },
-                    {
-                        "name":  "pptx-generator",
-                        "syncStatus":  "synced",
-                        "lastSyncedAt":  "2026-06-11T13:29:09",
-                        "lastSyncedCommit":  null,
-                        "upstreamTag":  null,
-                        "upstreamVersion":  null
-                    },
-                    {
-                        "name":  "pptx",
-                        "syncStatus":  "synced",
-                        "lastSyncedAt":  "2026-06-12T19:43:06",
-                        "lastSyncedCommit":  "57546260929473d4e0d1c1bb75297be2fdfa1949",
-                        "upstreamTag":  null,
-                        "upstreamVersion":  null
-                    },
-                    {
-                        "name":  "frontend-slides",
-                        "syncStatus":  "synced",
-                        "lastSyncedAt":  "2026-06-11T13:29:10",
-                        "lastSyncedCommit":  "871ce4daa13599d6195fe0bb465eb0ed80b2fa44",
-                        "upstreamTag":  null,
-                        "upstreamVersion":  null
-                    },
-                    {
-                        "name":  "minimax-docx",
-                        "syncStatus":  "synced",
-                        "lastSyncedAt":  "2026-06-12T19:43:06",
-                        "lastSyncedCommit":  "60aaae52bb2af8162732751a4332f62a5fef518b",
-                        "upstreamTag":  null,
-                        "upstreamVersion":  null
-                    },
-                    {
-                        "name":  "minimax-xlsx",
-                        "syncStatus":  "synced",
-                        "lastSyncedAt":  "2026-06-12T19:43:06",
-                        "lastSyncedCommit":  "60aaae52bb2af8162732751a4332f62a5fef518b",
-                        "upstreamTag":  null,
-                        "upstreamVersion":  null
-                    },
-                    {
-                        "name":  "minimax-pdf",
-                        "syncStatus":  "synced",
-                        "lastSyncedAt":  "2026-06-12T19:43:06",
-                        "lastSyncedCommit":  "60aaae52bb2af8162732751a4332f62a5fef518b",
-                        "upstreamTag":  null,
-                        "upstreamVersion":  null
-                    },
-                    {
-                        "name":  "markitdown",
-                        "syncStatus":  "synced",
-                        "lastSyncedAt":  "2026-06-12T19:44:50",
-                        "lastSyncedCommit":  "c8c5f9dc5640d0bd173e32d6192172443c31db4b",
-                        "upstreamTag":  null,
-                        "upstreamVersion":  null
-                    },
-                    {
-                        "name":  "ppt-master",
-                        "syncStatus":  "synced",
-                        "lastSyncedAt":  "2026-06-12T19:43:38",
-                        "lastSyncedCommit":  "2b337bec18c2cb1381fee2dfca2e6f6fed463ce6",
-                        "upstreamTag":  null,
-                        "upstreamVersion":  null
-                    },
-                    {
-                        "name":  "coding-agent",
-                        "syncStatus":  "synced",
-                        "lastSyncedAt":  "2026-06-12T19:44:51",
-                        "lastSyncedCommit":  "418d7e1e83c560c14139cd8c1e043b8f374a446c",
-                        "upstreamTag":  null,
-                        "upstreamVersion":  null
-                    },
-                    {
-                        "name":  "fullstack-developer",
-                        "syncStatus":  "synced",
-                        "lastSyncedAt":  "2026-06-12T19:43:06",
-                        "lastSyncedCommit":  "72718ec759ecc82ead7666fd47922928b61c2b4d",
-                        "upstreamTag":  null,
-                        "upstreamVersion":  null
-                    },
-                    {
-                        "name":  "github",
-                        "syncStatus":  "synced",
-                        "lastSyncedAt":  "2026-06-12T19:44:51",
-                        "lastSyncedCommit":  "418d7e1e83c560c14139cd8c1e043b8f374a446c",
-                        "upstreamTag":  null,
-                        "upstreamVersion":  null
-                    },
-                    {
-                        "name":  "network-interface-health",
-                        "syncStatus":  "synced",
-                        "lastSyncedAt":  "2026-06-12T19:44:51",
-                        "lastSyncedCommit":  "16be4a68984385124431725a279a575816b85fd4",
-                        "upstreamTag":  null,
-                        "upstreamVersion":  null
-                    },
-                    {
-                        "name":  "frontend-ui-ux",
-                        "syncStatus":  "synced",
-                        "lastSyncedAt":  "2026-06-12T19:43:40",
-                        "lastSyncedCommit":  null,
-                        "upstreamTag":  null,
-                        "upstreamVersion":  null
-                    },
-                    {
-                        "name":  "canvas-design",
-                        "syncStatus":  "synced",
-                        "lastSyncedAt":  "2026-06-12T19:43:06",
-                        "lastSyncedCommit":  "57546260929473d4e0d1c1bb75297be2fdfa1949",
-                        "upstreamTag":  null,
-                        "upstreamVersion":  null
-                    },
-                    {
-                        "name":  "visualization-expert",
-                        "syncStatus":  "synced",
-                        "lastSyncedAt":  "2026-06-12T19:43:06",
-                        "lastSyncedCommit":  "72718ec759ecc82ead7666fd47922928b61c2b4d",
-                        "upstreamTag":  null,
-                        "upstreamVersion":  null
-                    },
-                    {
-                        "name":  "agent-browser",
-                        "syncStatus":  "synced",
-                        "lastSyncedAt":  "2026-06-12T19:43:41",
-                        "lastSyncedCommit":  "5185339ca3fdab9848e11b8ec676eecfdec3733f",
-                        "upstreamTag":  null,
-                        "upstreamVersion":  null
-                    },
-                    {
-                        "name":  "skill-creator",
-                        "syncStatus":  "synced",
-                        "lastSyncedAt":  "2026-06-12T19:44:51",
-                        "lastSyncedCommit":  "418d7e1e83c560c14139cd8c1e043b8f374a446c",
-                        "upstreamTag":  null,
-                        "upstreamVersion":  null
-                    },
-                    {
-                        "name":  "skill-vetter",
-                        "syncStatus":  "synced",
-                        "lastSyncedAt":  "2026-06-12T19:43:41",
-                        "lastSyncedCommit":  "4645f2d047d63e0682b01745d9fc07720110d386",
-                        "upstreamTag":  null,
-                        "upstreamVersion":  null
-                    },
-                    {
-                        "name":  "using-superpowers",
-                        "syncStatus":  "synced",
-                        "lastSyncedAt":  "2026-06-12T19:44:51",
-                        "lastSyncedCommit":  "6fd4507659784c351abbd2bc264c7162cfd386dc",
-                        "upstreamTag":  null,
-                        "upstreamVersion":  null
-                    },
-                    {
-                        "name":  "superpowers",
-                        "syncStatus":  "synced",
-                        "lastSyncedAt":  "2026-06-12T19:45:02",
-                        "lastSyncedCommit":  "c6ea566d43f71cb85ae39a6f7c0c50e287794652",
-                        "upstreamTag":  null,
-                        "upstreamVersion":  null
-                    },
-                    {
-                        "name":  "self-improvement",
-                        "syncStatus":  "synced",
-                        "lastSyncedAt":  "2026-06-12T19:46:43",
-                        "lastSyncedCommit":  "109f3ff4c0ad725fff94b8ab4d882aab9728b828",
-                        "upstreamTag":  null,
-                        "upstreamVersion":  null
-                    },
-                    {
-                        "name":  "project-planner",
-                        "syncStatus":  "synced",
-                        "lastSyncedAt":  "2026-06-12T19:43:06",
-                        "lastSyncedCommit":  "72718ec759ecc82ead7666fd47922928b61c2b4d",
-                        "upstreamTag":  null,
-                        "upstreamVersion":  null
-                    },
-                    {
-                        "name":  "summarize",
-                        "syncStatus":  "synced",
-                        "lastSyncedAt":  "2026-06-12T19:44:51",
-                        "lastSyncedCommit":  "418d7e1e83c560c14139cd8c1e043b8f374a446c",
-                        "upstreamTag":  null,
-                        "upstreamVersion":  null
-                    },
-                    {
-                        "name":  "harness",
-                        "syncStatus":  "synced",
-                        "lastSyncedAt":  "2026-06-12T19:45:07",
-                        "lastSyncedCommit":  "cceac68ea1d0ad198ef4b7b906cd238375836387",
-                        "upstreamTag":  null,
-                        "upstreamVersion":  null
-                    },
-                    {
-                        "name":  "openai-whisper",
-                        "syncStatus":  "synced",
-                        "lastSyncedAt":  "2026-06-12T19:44:51",
-                        "lastSyncedCommit":  "418d7e1e83c560c14139cd8c1e043b8f374a446c",
-                        "upstreamTag":  null,
-                        "upstreamVersion":  null
-                    },
-                    {
-                        "name":  "baoyu-image-gen",
-                        "syncStatus":  "synced",
-                        "lastSyncedAt":  "2026-06-12T19:46:48",
-                        "lastSyncedCommit":  "55223daf5c7c21ce6343935f138fcbe33d683000",
-                        "upstreamTag":  null,
-                        "upstreamVersion":  null
-                    },
-                    {
-                        "name":  "Humanizer-zh",
-                        "syncStatus":  "synced",
-                        "lastSyncedAt":  "2026-06-12T19:45:13",
-                        "lastSyncedCommit":  "91f3d394db8419c20d67ebe22a96cf8fee0a404b",
-                        "upstreamTag":  null,
-                        "upstreamVersion":  null
-                    },
-                    {
-                        "name":  "financial-statements",
-                        "syncStatus":  "synced",
-                        "lastSyncedAt":  "2026-06-12T19:43:10",
-                        "lastSyncedCommit":  "b8e8089b47943dfab2dfdd529c1b48dd14e3d2f1",
-                        "upstreamTag":  null,
-                        "upstreamVersion":  null
-                    },
-                    {
-                        "name":  "validate-idea",
-                        "syncStatus":  "synced",
-                        "lastSyncedAt":  "2026-06-12T19:43:11",
-                        "lastSyncedCommit":  "eb9f57fba03ddb0382ed3bfe6654d3d7df128c70",
-                        "upstreamTag":  null,
-                        "upstreamVersion":  null
-                    }
-                ]
+  "schemaVersion": "1.0.0",
+  "updatedAt": "2026-06-12T11:57:51.918Z",
+  "entries": [
+    {
+      "name": "ppt-generator",
+      "syncStatus": "disabled-invalid-source",
+      "lastSyncedAt": "2026-06-12T19:45:02",
+      "lastSyncedCommit": null,
+      "upstreamTag": null,
+      "upstreamVersion": null
+    },
+    {
+      "name": "guizang-ppt-skill",
+      "syncStatus": "synced",
+      "lastSyncedAt": "2026-06-11T13:24:30",
+      "lastSyncedCommit": "82fe5ae129e8c2a12e1155fcabed6703342749d6",
+      "upstreamTag": null,
+      "upstreamVersion": null
+    },
+    {
+      "name": "pptx-generator",
+      "syncStatus": "synced",
+      "lastSyncedAt": "2026-06-11T13:29:09",
+      "lastSyncedCommit": null,
+      "upstreamTag": null,
+      "upstreamVersion": null
+    },
+    {
+      "name": "pptx",
+      "syncStatus": "synced",
+      "lastSyncedAt": "2026-06-12T19:43:06",
+      "lastSyncedCommit": "57546260929473d4e0d1c1bb75297be2fdfa1949",
+      "upstreamTag": null,
+      "upstreamVersion": null
+    },
+    {
+      "name": "frontend-slides",
+      "syncStatus": "synced",
+      "lastSyncedAt": "2026-06-11T13:29:10",
+      "lastSyncedCommit": "871ce4daa13599d6195fe0bb465eb0ed80b2fa44",
+      "upstreamTag": null,
+      "upstreamVersion": null
+    },
+    {
+      "name": "minimax-docx",
+      "syncStatus": "synced",
+      "lastSyncedAt": "2026-06-12T19:43:06",
+      "lastSyncedCommit": "60aaae52bb2af8162732751a4332f62a5fef518b",
+      "upstreamTag": null,
+      "upstreamVersion": null
+    },
+    {
+      "name": "minimax-xlsx",
+      "syncStatus": "synced",
+      "lastSyncedAt": "2026-06-12T19:43:06",
+      "lastSyncedCommit": "60aaae52bb2af8162732751a4332f62a5fef518b",
+      "upstreamTag": null,
+      "upstreamVersion": null
+    },
+    {
+      "name": "minimax-pdf",
+      "syncStatus": "synced",
+      "lastSyncedAt": "2026-06-12T19:43:06",
+      "lastSyncedCommit": "60aaae52bb2af8162732751a4332f62a5fef518b",
+      "upstreamTag": null,
+      "upstreamVersion": null
+    },
+    {
+      "name": "markitdown",
+      "syncStatus": "synced",
+      "lastSyncedAt": "2026-06-12T19:44:50",
+      "lastSyncedCommit": "c8c5f9dc5640d0bd173e32d6192172443c31db4b",
+      "upstreamTag": null,
+      "upstreamVersion": null
+    },
+    {
+      "name": "ppt-master",
+      "syncStatus": "synced",
+      "lastSyncedAt": "2026-06-12T19:43:38",
+      "lastSyncedCommit": "2b337bec18c2cb1381fee2dfca2e6f6fed463ce6",
+      "upstreamTag": null,
+      "upstreamVersion": null
+    },
+    {
+      "name": "coding-agent",
+      "syncStatus": "synced",
+      "lastSyncedAt": "2026-06-12T19:44:51",
+      "lastSyncedCommit": "418d7e1e83c560c14139cd8c1e043b8f374a446c",
+      "upstreamTag": null,
+      "upstreamVersion": null
+    },
+    {
+      "name": "fullstack-developer",
+      "syncStatus": "synced",
+      "lastSyncedAt": "2026-06-12T19:43:06",
+      "lastSyncedCommit": "72718ec759ecc82ead7666fd47922928b61c2b4d",
+      "upstreamTag": null,
+      "upstreamVersion": null
+    },
+    {
+      "name": "github",
+      "syncStatus": "synced",
+      "lastSyncedAt": "2026-06-12T19:44:51",
+      "lastSyncedCommit": "418d7e1e83c560c14139cd8c1e043b8f374a446c",
+      "upstreamTag": null,
+      "upstreamVersion": null
+    },
+    {
+      "name": "network-interface-health",
+      "syncStatus": "synced",
+      "lastSyncedAt": "2026-06-12T19:44:51",
+      "lastSyncedCommit": "16be4a68984385124431725a279a575816b85fd4",
+      "upstreamTag": null,
+      "upstreamVersion": null
+    },
+    {
+      "name": "frontend-ui-ux",
+      "syncStatus": "synced",
+      "lastSyncedAt": "2026-06-12T19:43:40",
+      "lastSyncedCommit": null,
+      "upstreamTag": null,
+      "upstreamVersion": null
+    },
+    {
+      "name": "canvas-design",
+      "syncStatus": "synced",
+      "lastSyncedAt": "2026-06-12T19:43:06",
+      "lastSyncedCommit": "57546260929473d4e0d1c1bb75297be2fdfa1949",
+      "upstreamTag": null,
+      "upstreamVersion": null
+    },
+    {
+      "name": "visualization-expert",
+      "syncStatus": "synced",
+      "lastSyncedAt": "2026-06-12T19:43:06",
+      "lastSyncedCommit": "72718ec759ecc82ead7666fd47922928b61c2b4d",
+      "upstreamTag": null,
+      "upstreamVersion": null
+    },
+    {
+      "name": "agent-browser",
+      "syncStatus": "synced",
+      "lastSyncedAt": "2026-06-12T19:43:41",
+      "lastSyncedCommit": "5185339ca3fdab9848e11b8ec676eecfdec3733f",
+      "upstreamTag": null,
+      "upstreamVersion": null
+    },
+    {
+      "name": "skill-creator",
+      "syncStatus": "synced",
+      "lastSyncedAt": "2026-06-12T19:44:51",
+      "lastSyncedCommit": "418d7e1e83c560c14139cd8c1e043b8f374a446c",
+      "upstreamTag": null,
+      "upstreamVersion": null
+    },
+    {
+      "name": "skill-vetter",
+      "syncStatus": "synced",
+      "lastSyncedAt": "2026-06-12T19:43:41",
+      "lastSyncedCommit": "4645f2d047d63e0682b01745d9fc07720110d386",
+      "upstreamTag": null,
+      "upstreamVersion": null
+    },
+    {
+      "name": "using-superpowers",
+      "syncStatus": "synced",
+      "lastSyncedAt": "2026-06-12T19:44:51",
+      "lastSyncedCommit": "6fd4507659784c351abbd2bc264c7162cfd386dc",
+      "upstreamTag": null,
+      "upstreamVersion": null
+    },
+    {
+      "name": "superpowers",
+      "syncStatus": "synced",
+      "lastSyncedAt": "2026-06-12T19:45:02",
+      "lastSyncedCommit": "c6ea566d43f71cb85ae39a6f7c0c50e287794652",
+      "upstreamTag": null,
+      "upstreamVersion": null
+    },
+    {
+      "name": "self-improvement",
+      "syncStatus": "synced",
+      "lastSyncedAt": "2026-06-12T19:46:43",
+      "lastSyncedCommit": "109f3ff4c0ad725fff94b8ab4d882aab9728b828",
+      "upstreamTag": null,
+      "upstreamVersion": null
+    },
+    {
+      "name": "project-planner",
+      "syncStatus": "synced",
+      "lastSyncedAt": "2026-06-12T19:43:06",
+      "lastSyncedCommit": "72718ec759ecc82ead7666fd47922928b61c2b4d",
+      "upstreamTag": null,
+      "upstreamVersion": null
+    },
+    {
+      "name": "summarize",
+      "syncStatus": "synced",
+      "lastSyncedAt": "2026-06-12T19:44:51",
+      "lastSyncedCommit": "418d7e1e83c560c14139cd8c1e043b8f374a446c",
+      "upstreamTag": null,
+      "upstreamVersion": null
+    },
+    {
+      "name": "harness",
+      "syncStatus": "synced",
+      "lastSyncedAt": "2026-06-12T19:45:07",
+      "lastSyncedCommit": "cceac68ea1d0ad198ef4b7b906cd238375836387",
+      "upstreamTag": null,
+      "upstreamVersion": null
+    },
+    {
+      "name": "openai-whisper",
+      "syncStatus": "synced",
+      "lastSyncedAt": "2026-06-12T19:44:51",
+      "lastSyncedCommit": "418d7e1e83c560c14139cd8c1e043b8f374a446c",
+      "upstreamTag": null,
+      "upstreamVersion": null
+    },
+    {
+      "name": "baoyu-image-gen",
+      "syncStatus": "synced",
+      "lastSyncedAt": "2026-06-12T19:46:48",
+      "lastSyncedCommit": "55223daf5c7c21ce6343935f138fcbe33d683000",
+      "upstreamTag": null,
+      "upstreamVersion": null
+    },
+    {
+      "name": "Humanizer-zh",
+      "syncStatus": "synced",
+      "lastSyncedAt": "2026-06-12T19:45:13",
+      "lastSyncedCommit": "91f3d394db8419c20d67ebe22a96cf8fee0a404b",
+      "upstreamTag": null,
+      "upstreamVersion": null
+    },
+    {
+      "name": "financial-statements",
+      "syncStatus": "synced",
+      "lastSyncedAt": "2026-06-12T19:43:10",
+      "lastSyncedCommit": "b8e8089b47943dfab2dfdd529c1b48dd14e3d2f1",
+      "upstreamTag": null,
+      "upstreamVersion": null
+    },
+    {
+      "name": "validate-idea",
+      "syncStatus": "synced",
+      "lastSyncedAt": "2026-06-12T19:43:11",
+      "lastSyncedCommit": "eb9f57fba03ddb0382ed3bfe6654d3d7df128c70",
+      "upstreamTag": null,
+      "upstreamVersion": null
+    },
+    {
+      "name": "project-context-compactor",
+      "syncStatus": "synced",
+      "lastSyncedAt": "2026-06-12T11:57:51.811Z",
+      "lastSyncedCommit": "local",
+      "upstreamTag": null,
+      "upstreamVersion": null
+    },
+    {
+      "name": "prompt-optimizer",
+      "syncStatus": "synced",
+      "lastSyncedAt": "2026-06-12T11:57:51.917Z",
+      "lastSyncedCommit": "local",
+      "upstreamTag": null,
+      "upstreamVersion": null
+    }
+  ]
 }

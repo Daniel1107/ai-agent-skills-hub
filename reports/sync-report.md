@@ -1,6 +1,6 @@
 # Sync Report
 
-Generated: 2026-06-12T11:47:38.140Z
+Generated: 2026-06-12T11:57:52.246Z
 
 | Skill | Runtime | Enabled | Sync Status | Commit | Source | Path |
 |---|---|---|---|---|---|---|
@@ -26,7 +26,9 @@ Generated: 2026-06-12T11:47:38.140Z
 | ppt-master | codex | true | synced | 2b337bec18c2cb1381fee2dfca2e6f6fed463ce6 | https://github.com/hugohe3/ppt-master | skills/ppt-master |
 | pptx | claude-code | true | synced | 57546260929473d4e0d1c1bb75297be2fdfa1949 | https://github.com/anthropics/skills | skills/pptx |
 | pptx-generator | codex | true | synced |  | https://lobehub.com/skills/minimax-ai-skills-pptx-generator/skill.md | skill.md |
+| project-context-compactor | codex | true | synced | local | C:\Users\yh605\.agents\skills\.system\project-context-compactor | . |
 | project-planner | claude-code | true | synced | 72718ec759ecc82ead7666fd47922928b61c2b4d | https://github.com/Shubhamsaboo/awesome-llm-apps | awesome_agent_skills/project-planner |
+| prompt-optimizer | codex | true | synced | local | C:\Users\yh605\.agents\skills\.system\prompt-optimizer | . |
 | self-improvement | claude-code | true | synced | 109f3ff4c0ad725fff94b8ab4d882aab9728b828 | https://github.com/peterskoett/self-improving-agent | . |
 | skill-creator | codex | true | synced | 418d7e1e83c560c14139cd8c1e043b8f374a446c | https://github.com/openclaw/openclaw | skills/skill-creator |
 | skill-vetter | codex | true | synced | 4645f2d047d63e0682b01745d9fc07720110d386 | https://github.com/UseAI-pro/openclaw-skills-security | skills/skill-vetter |
