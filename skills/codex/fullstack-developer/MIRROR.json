@@ -1,0 +1,9 @@
+{
+    "syncedAt":  "2026-06-12T19:43:06",
+    "name":  "fullstack-developer",
+    "upstreamPath":  "awesome_agent_skills/fullstack-developer",
+    "syncMode":  "repo-subdir",
+    "upstreamRepo":  "https://github.com/Shubhamsaboo/awesome-llm-apps",
+    "runtime":  "codex",
+    "lastSyncedCommit":  "72718ec759ecc82ead7666fd47922928b61c2b4d"
+}

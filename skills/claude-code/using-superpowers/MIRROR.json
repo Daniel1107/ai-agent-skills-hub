@@ -1,0 +1,9 @@
+{
+    "syncedAt":  "2026-06-12T19:44:51",
+    "name":  "using-superpowers",
+    "upstreamPath":  "skills/using-superpowers",
+    "syncMode":  "repo-subdir",
+    "upstreamRepo":  "https://github.com/obra/superpowers",
+    "runtime":  "claude-code",
+    "lastSyncedCommit":  "6fd4507659784c351abbd2bc264c7162cfd386dc"
+}

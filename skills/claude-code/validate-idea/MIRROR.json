@@ -1,0 +1,9 @@
+{
+    "syncedAt":  "2026-06-12T19:43:11",
+    "name":  "validate-idea",
+    "upstreamPath":  "skills/validate-idea",
+    "syncMode":  "repo-subdir",
+    "upstreamRepo":  "https://github.com/slavingia/skills",
+    "runtime":  "claude-code",
+    "lastSyncedCommit":  "eb9f57fba03ddb0382ed3bfe6654d3d7df128c70"
+}

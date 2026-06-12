@@ -1,33 +1,48 @@
-# 维护流程
+# Maintenance
 
-## 常规变更
+## Normal change flow
 
-1. 修改 `skills.json`。
-2. 运行 `node scripts/validate-manifest.mjs`。
-3. 运行 `node scripts/generate-readmes.mjs`。
-4. 检查 Git diff。
-5. 提交变更。
+1. Edit `registry/skills.json`, `registry/compatibility.json`, `registry/sync-state.json`, or `registry/install-profiles.json`.
+2. Run `node scripts/validate-registry.mjs`.
+3. Run `node scripts/generate-readmes.mjs`.
+4. Run `node scripts/classify-skills.mjs`.
+5. Run `node scripts/sync-skills.mjs --dry-run`.
+6. Review Git diff.
+7. Commit.
 
-## 增加新 Skill
+## Adding a new skill
 
-必须补齐字段：
+You must add:
+
+- a skill entry in `registry/skills.json`
+- a compatibility entry in `registry/compatibility.json`
+- a sync-state entry in `registry/sync-state.json`
+- optional profile coverage in `registry/install-profiles.json`
+
+Required fields in `registry/skills.json`:
 
 - `name`
+- `slug`
 - `category`
 - `sourceLevel`
-- `source`
-- `installType`
-- `installCommand`
+- `upstreamRepo`
+- `upstreamPath`
+- `defaultBranch`
+- `syncMode`
+- `installMode`
 - `risk`
-- `status`
+- `enabled`
 
-## 镜像源码条件
+## Removing or disabling a skill
 
-只有同时满足以下条件，才建议把第三方 Skill 源码镜像进本仓库：
+- Preferred: set `enabled` to `false` first
+- Remove the skill entirely only after registry and generated outputs have been updated together
 
-1. 常用且长期依赖。
-2. 来源许可证允许再分发。
-3. 已完成安全审计。
-4. 已确认维护责任。
-5. 已有明确更新策略。
+## Mirror policy
 
+Mirror upstream Skill content only when:
+
+1. the source license allows redistribution
+2. the sync source is stable enough to automate
+3. the risk profile is understood
+4. the runtime classification is recorded

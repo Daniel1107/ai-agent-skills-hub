@@ -1,0 +1,9 @@
+{
+    "syncedAt":  "2026-06-12T19:44:51",
+    "name":  "openai-whisper",
+    "upstreamPath":  "skills/openai-whisper",
+    "syncMode":  "repo-subdir",
+    "upstreamRepo":  "https://github.com/openclaw/openclaw",
+    "runtime":  "codex",
+    "lastSyncedCommit":  "418d7e1e83c560c14139cd8c1e043b8f374a446c"
+}

@@ -1,0 +1,10 @@
+{
+  "schemaVersion": "1.0.0",
+  "updatedAt": "2026-06-11",
+  "profiles": [
+    {"name":"codex-core","description":"Common Codex-first skills excluding manual-only entries.","runtimes":["codex"],"includeRisks":["low","medium","high"],"excludeInstallModes":["mirror-local-manual"]},
+    {"name":"claude-core","description":"Common Claude Code-first skills excluding manual-only entries.","runtimes":["claude-code"],"includeRisks":["low","medium","high"],"excludeInstallModes":["mirror-local-manual"]},
+    {"name":"documents","description":"Document-oriented skills across runtimes.","categories":["document-automation"],"includeRisks":["low","medium","high"],"excludeInstallModes":[]},
+    {"name":"safe-default","description":"Low and medium risk skills only.","includeRisks":["low","medium"],"excludeInstallModes":[]}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+    "syncedAt":  "2026-06-12T19:45:13",
+    "name":  "Humanizer-zh",
+    "upstreamPath":  ".",
+    "syncMode":  "repo-root-skill",
+    "upstreamRepo":  "https://github.com/op7418/Humanizer-zh",
+    "runtime":  "claude-code",
+    "lastSyncedCommit":  "91f3d394db8419c20d67ebe22a96cf8fee0a404b"
+}

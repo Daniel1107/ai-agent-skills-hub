@@ -1,0 +1,9 @@
+{
+    "syncedAt":  "2026-06-12T19:43:06",
+    "name":  "minimax-pdf",
+    "upstreamPath":  "skills/minimax-pdf",
+    "syncMode":  "repo-subdir",
+    "upstreamRepo":  "https://github.com/MiniMax-AI/skills",
+    "runtime":  "codex",
+    "lastSyncedCommit":  "60aaae52bb2af8162732751a4332f62a5fef518b"
+}

@@ -1,0 +1,9 @@
+﻿{
+    "syncedAt":  "2026-06-11T13:29:09",
+    "name":  "pptx-generator",
+    "upstreamPath":  "skill.md",
+    "syncMode":  "remote-manifest",
+    "upstreamRepo":  "https://lobehub.com/skills/minimax-ai-skills-pptx-generator/skill.md",
+    "runtime":  "codex",
+    "lastSyncedCommit":  null
+}

@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-node scripts/install-skills.mjs --all "$@"
-
+runtime="${1:-codex}"
+shift || true
+node scripts/install-skills.mjs --runtime "$runtime" "$@"

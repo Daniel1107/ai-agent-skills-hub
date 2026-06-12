@@ -1,15 +1,13 @@
 param(
   [Parameter(Mandatory = $true)]
-  [ValidateSet("document-automation", "dev-engineering", "agent-collaboration", "specialized-media-context")]
-  [string]$Category,
+  [string]$Profile,
   [switch]$DryRun
 )
 
-$argsList = @("scripts/install-skills.mjs", "--category", $Category)
+$argsList = @("scripts/install-skills.mjs", "--profile", $Profile)
 if ($DryRun) {
   $argsList += "--dry-run"
 }
 
 node @argsList
 exit $LASTEXITCODE
-

@@ -1,0 +1,9 @@
+{
+    "syncedAt":  "2026-06-12T19:46:43",
+    "name":  "self-improvement",
+    "upstreamPath":  ".",
+    "syncMode":  "repo-root-skill",
+    "upstreamRepo":  "https://github.com/peterskoett/self-improving-agent",
+    "runtime":  "claude-code",
+    "lastSyncedCommit":  "109f3ff4c0ad725fff94b8ab4d882aab9728b828"
+}

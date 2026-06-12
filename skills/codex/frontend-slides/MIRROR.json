@@ -1,0 +1,9 @@
+﻿{
+    "syncedAt":  "2026-06-11T13:29:10",
+    "name":  "frontend-slides",
+    "upstreamPath":  ".",
+    "syncMode":  "repo-root-skill",
+    "upstreamRepo":  "https://github.com/zarazhangrui/frontend-slides",
+    "runtime":  "codex",
+    "lastSyncedCommit":  "871ce4daa13599d6195fe0bb465eb0ed80b2fa44"
+}

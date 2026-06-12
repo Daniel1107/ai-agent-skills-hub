@@ -1,0 +1,26 @@
+# fullstack-developer
+
+- Runtime: codex
+- Confidence: medium
+- Category: dev-engineering
+- Source Level: external-fallback
+- Upstream Repo: https://github.com/Shubhamsaboo/awesome-llm-apps
+- Upstream Path: awesome_agent_skills/fullstack-developer
+- Sync Mode: repo-subdir
+- Install Mode: mirror-local
+- Risk: high
+- Enabled: true
+- Sync Status: synced
+
+## Compatibility
+
+Full-stack build workflow is execution-heavy and matches Codex well.
+
+## Signals
+
+- engineering workflow
+- repo subdir
+
+## Self-Hosted Target
+
+This skill will be mirrored into `skills/codex/fullstack-developer` and installed from the local repository mirror after sync.

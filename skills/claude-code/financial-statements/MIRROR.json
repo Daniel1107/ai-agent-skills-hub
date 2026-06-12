@@ -1,0 +1,9 @@
+{
+    "syncedAt":  "2026-06-12T19:43:10",
+    "name":  "financial-statements",
+    "upstreamPath":  "finance/skills/financial-statements",
+    "syncMode":  "repo-subdir",
+    "upstreamRepo":  "https://github.com/anthropics/knowledge-work-plugins",
+    "runtime":  "claude-code",
+    "lastSyncedCommit":  "b8e8089b47943dfab2dfdd529c1b48dd14e3d2f1"
+}

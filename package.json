@@ -1,14 +1,16 @@
 {
   "name": "ai-agent-skills-hub",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "type": "module",
   "scripts": {
     "list": "node scripts/list-skills.mjs",
-    "validate": "node scripts/validate-manifest.mjs",
+    "validate": "node scripts/validate-registry.mjs",
     "generate": "node scripts/generate-readmes.mjs",
-    "install:all": "node scripts/install-skills.mjs --all",
-    "install:dry-run": "node scripts/install-skills.mjs --all --dry-run"
+    "classify": "node scripts/classify-skills.mjs",
+    "sync:report": "node scripts/build-sync-report.mjs",
+    "sync:dry-run": "node scripts/sync-skills.mjs --dry-run",
+    "install:codex:dry-run": "node scripts/install-skills.mjs --runtime codex --dry-run",
+    "install:claude:dry-run": "node scripts/install-skills.mjs --runtime claude-code --dry-run"
   }
 }
-

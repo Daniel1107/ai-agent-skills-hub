@@ -1,0 +1,9 @@
+{
+    "syncedAt":  "2026-06-12T19:45:02",
+    "name":  "superpowers",
+    "upstreamPath":  "plugins/superpowers",
+    "syncMode":  "repo-subdir",
+    "upstreamRepo":  "https://github.com/openai/plugins",
+    "runtime":  "codex",
+    "lastSyncedCommit":  "c6ea566d43f71cb85ae39a6f7c0c50e287794652"
+}

@@ -1,0 +1,9 @@
+{
+    "syncedAt":  "2026-06-12T19:43:41",
+    "name":  "skill-vetter",
+    "upstreamPath":  "skills/skill-vetter",
+    "syncMode":  "repo-subdir",
+    "upstreamRepo":  "https://github.com/UseAI-pro/openclaw-skills-security",
+    "runtime":  "codex",
+    "lastSyncedCommit":  "4645f2d047d63e0682b01745d9fc07720110d386"
+}

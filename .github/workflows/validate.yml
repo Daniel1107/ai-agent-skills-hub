@@ -12,7 +12,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: node scripts/validate-manifest.mjs
+      - run: node scripts/validate-registry.mjs
       - run: node scripts/generate-readmes.mjs
+      - run: node scripts/classify-skills.mjs
+      - run: node scripts/build-sync-report.mjs
+      - run: node scripts/sync-skills.mjs --dry-run
       - run: git diff --exit-code
-

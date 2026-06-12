@@ -1,0 +1,9 @@
+{
+    "syncedAt":  "2026-06-12T19:45:07",
+    "name":  "harness",
+    "upstreamPath":  "skills/harness",
+    "syncMode":  "repo-subdir",
+    "upstreamRepo":  "https://github.com/revfactory/harness",
+    "runtime":  "codex",
+    "lastSyncedCommit":  "cceac68ea1d0ad198ef4b7b906cd238375836387"
+}

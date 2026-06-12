@@ -1,0 +1,9 @@
+{
+    "syncedAt":  "2026-06-12T19:44:50",
+    "name":  "markitdown",
+    "upstreamPath":  "skills/markitdown",
+    "syncMode":  "repo-subdir",
+    "upstreamRepo":  "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "runtime":  "codex",
+    "lastSyncedCommit":  "c8c5f9dc5640d0bd173e32d6192172443c31db4b"
+}

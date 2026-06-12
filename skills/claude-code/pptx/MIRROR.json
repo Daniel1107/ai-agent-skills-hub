@@ -1,0 +1,9 @@
+{
+    "syncedAt":  "2026-06-12T19:43:06",
+    "name":  "pptx",
+    "upstreamPath":  "skills/pptx",
+    "syncMode":  "repo-subdir",
+    "upstreamRepo":  "https://github.com/anthropics/skills",
+    "runtime":  "claude-code",
+    "lastSyncedCommit":  "57546260929473d4e0d1c1bb75297be2fdfa1949"
+}

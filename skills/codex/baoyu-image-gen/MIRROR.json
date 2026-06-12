@@ -1,0 +1,9 @@
+{
+    "syncedAt":  "2026-06-12T19:46:48",
+    "name":  "baoyu-image-gen",
+    "upstreamPath":  "skills/baoyu-image-gen",
+    "syncMode":  "repo-subdir",
+    "upstreamRepo":  "https://github.com/JimLiu/baoyu-skills",
+    "runtime":  "codex",
+    "lastSyncedCommit":  "55223daf5c7c21ce6343935f138fcbe33d683000"
+}

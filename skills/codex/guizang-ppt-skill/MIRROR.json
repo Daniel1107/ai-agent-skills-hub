@@ -1,0 +1,9 @@
+﻿{
+    "syncedAt":  "2026-06-11T13:24:30",
+    "name":  "guizang-ppt-skill",
+    "upstreamPath":  ".",
+    "syncMode":  "repo-root-skill",
+    "upstreamRepo":  "https://github.com/op7418/guizang-ppt-skill",
+    "runtime":  "codex",
+    "lastSyncedCommit":  "82fe5ae129e8c2a12e1155fcabed6703342749d6"
+}

@@ -1,0 +1,9 @@
+{
+    "syncedAt":  "2026-06-12T19:43:41",
+    "name":  "agent-browser",
+    "upstreamPath":  ".",
+    "syncMode":  "repo-root-skill",
+    "upstreamRepo":  "https://github.com/vercel-labs/agent-browser",
+    "runtime":  "codex",
+    "lastSyncedCommit":  "5185339ca3fdab9848e11b8ec676eecfdec3733f"
+}

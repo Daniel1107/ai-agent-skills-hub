@@ -1,0 +1,9 @@
+{
+    "syncedAt":  "2026-06-12T19:43:40",
+    "name":  "frontend-ui-ux",
+    "upstreamPath":  "skill.md",
+    "syncMode":  "remote-manifest",
+    "upstreamRepo":  "https://lobehub.com/skills/code-yeongyu-oh-my-opencode-frontend-ui-ux/skill.md",
+    "runtime":  "codex",
+    "lastSyncedCommit":  null
+}

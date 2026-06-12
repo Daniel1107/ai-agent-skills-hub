@@ -1,17 +1,14 @@
-import fs from "node:fs";
-import path from "node:path";
-import { fileURLToPath } from "node:url";
+import { buildSkillRecords } from "./lib/registry.mjs";
 
-const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const manifest = JSON.parse(fs.readFileSync(path.join(root, "skills.json"), "utf8"));
-
-const rows = manifest.skills.map((skill) => ({
+const rows = buildSkillRecords().map((skill) => ({
   name: skill.name,
+  runtime: skill.compatibility.runtime,
+  confidence: skill.compatibility.confidence,
   category: skill.category,
-  source: skill.sourceLevel,
-  risk: skill.risk,
-  installType: skill.installType
+  syncMode: skill.syncMode,
+  installMode: skill.installMode,
+  risk: skill.risk
 }));
 
 console.table(rows);
-console.log(`Total: ${manifest.skills.length}`);
+console.log(`Total: ${rows.length}`);

@@ -1,0 +1,9 @@
+{
+    "syncedAt":  "2026-06-12T19:43:38",
+    "name":  "ppt-master",
+    "upstreamPath":  "skills/ppt-master",
+    "syncMode":  "repo-subdir",
+    "upstreamRepo":  "https://github.com/hugohe3/ppt-master",
+    "runtime":  "codex",
+    "lastSyncedCommit":  "2b337bec18c2cb1381fee2dfca2e6f6fed463ce6"
+}

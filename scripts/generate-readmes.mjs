@@ -1,54 +1,71 @@
 import fs from "node:fs";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
+import { buildSkillRecords, ensureDir, getRoot, runtimeDir, writeText } from "./lib/registry.mjs";
 
-const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const manifest = JSON.parse(fs.readFileSync(path.join(root, "skills.json"), "utf8"));
-const skillsRoot = path.join(root, "skills");
+const root = getRoot();
+const skills = buildSkillRecords();
+const runtimes = ["codex", "claude-code", "shared"];
+const legacyDirs = [
+  "skills/document-automation",
+  "skills/dev-engineering",
+  "skills/agent-collaboration",
+  "skills/specialized-media-context"
+];
 
-for (const [category, label] of Object.entries(manifest.categories)) {
-  const categoryDir = path.join(skillsRoot, category);
-  fs.mkdirSync(categoryDir, { recursive: true });
-  const categorySkills = manifest.skills.filter((skill) => skill.category === category);
-  const categoryReadme = [
-    `# ${label}`,
+for (const legacyDir of legacyDirs) {
+  fs.rmSync(path.join(root, legacyDir), { recursive: true, force: true });
+}
+
+for (const runtime of runtimes) {
+  ensureDir(runtimeDir(runtime));
+}
+
+for (const runtime of runtimes) {
+  const runtimeSkills = skills.filter((skill) => skill.compatibility.runtime === runtime).sort((a, b) => a.name.localeCompare(b.name));
+  const indexLines = [
+    `# ${runtime}`,
     "",
-    "| Skill | 来源等级 | 风险 | 安装类型 |",
-    "|---|---|---|---|",
-    ...categorySkills.map((skill) => `| [${skill.name}](${skill.name}/README.md) | ${skill.sourceLevel} | ${skill.risk} | ${skill.installType} |`),
+    "| Skill | Category | Risk | Sync Mode | Install Mode |",
+    "|---|---|---|---|---|",
+    ...runtimeSkills.map((skill) => `| [${skill.name}](${skill.slug}/HUB.md) | ${skill.category} | ${skill.risk} | ${skill.syncMode} | ${skill.installMode} |`),
     ""
-  ].join("\n");
-  fs.writeFileSync(path.join(categoryDir, "README.md"), categoryReadme, "utf8");
+  ];
+  writeText(`${runtimeDir(runtime)}/README.md`, indexLines.join("\n"));
 
-  for (const skill of categorySkills) {
-    const skillDir = path.join(categoryDir, skill.name);
-    fs.mkdirSync(skillDir, { recursive: true });
+  for (const skill of runtimeSkills) {
+    const skillDir = `${runtimeDir(runtime)}/${skill.slug}`;
+    ensureDir(skillDir);
     const readme = [
       `# ${skill.name}`,
       "",
-      `- 分类：${manifest.categories[skill.category]} (${skill.category})`,
-      `- 来源等级：${skill.sourceLevel}`,
-      `- 来源地址：${skill.source}`,
-      `- 安装类型：${skill.installType}`,
-      `- 风险等级：${skill.risk}`,
-      `- 当前状态：${skill.status}`,
+      `- Runtime: ${skill.compatibility.runtime}`,
+      `- Confidence: ${skill.compatibility.confidence}`,
+      `- Category: ${skill.category}`,
+      `- Source Level: ${skill.sourceLevel}`,
+      `- Upstream Repo: ${skill.upstreamRepo}`,
+      `- Upstream Path: ${skill.upstreamPath}`,
+      `- Sync Mode: ${skill.syncMode}`,
+      `- Install Mode: ${skill.installMode}`,
+      `- Risk: ${skill.risk}`,
+      `- Enabled: ${skill.enabled}`,
+      `- Sync Status: ${skill.syncState.syncStatus}`,
+      ...(skill.sourceNote ? [`- Source Note: ${skill.sourceNote}`] : []),
       "",
-      "## 推荐安装命令",
+      "## Compatibility",
       "",
-      "```bash",
-      skill.installCommand,
-      "```",
+      skill.compatibility.reason,
       "",
-      "## 维护要求",
+      "## Signals",
       "",
-      "1. 安装前先确认来源仓库、提交历史、许可证和脚本权限。",
-      "2. 高风险 Skill 必须先在隔离环境试装。",
-      "3. 若来源迁移到 OpenAI 官方插件仓库，优先更新 `skills.json` 的 `sourceLevel` 和 `source`。",
-      "4. 不在本目录保存 Token、Cookie、私钥或账户凭据。",
+      ...skill.compatibility.signals.map((signal) => `- ${signal}`),
+      "",
+      "## Self-Hosted Target",
+      "",
+      `This skill will be mirrored into \`${skillDir}\` and installed from the local repository mirror after sync.`,
       ""
     ].join("\n");
-    fs.writeFileSync(path.join(skillDir, "README.md"), readme, "utf8");
+    writeText(`${skillDir}/HUB.md`, readme);
   }
 }
 
-console.log(`Generated README files for ${manifest.skills.length} skills.`);
+console.log(`Generated runtime README files for ${skills.length} skills.`);
