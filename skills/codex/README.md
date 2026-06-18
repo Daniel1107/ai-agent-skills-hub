@@ -17,6 +17,7 @@
 | [minimax-xlsx](minimax-xlsx/HUB.md) | document-automation | medium | repo-subdir | mirror-local |
 | [network-interface-health](network-interface-health/HUB.md) | dev-engineering | medium | repo-subdir | mirror-local |
 | [openai-whisper](openai-whisper/HUB.md) | specialized-media-context | high | repo-subdir | mirror-local |
+| [ponytail-manual](ponytail-manual/HUB.md) | dev-engineering | medium | local-path | mirror-local |
 | [ppt-generator](ppt-generator/HUB.md) | document-automation | medium | repo-root-skill | mirror-local |
 | [ppt-master](ppt-master/HUB.md) | document-automation | medium | repo-subdir | mirror-local |
 | [pptx-generator](pptx-generator/HUB.md) | document-automation | medium | remote-manifest | mirror-local-manual |

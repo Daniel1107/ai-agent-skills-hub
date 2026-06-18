@@ -34,6 +34,7 @@
     {"name":"financial-statements","runtime":"claude-code","confidence":"medium","reason":"Anthropic-hosted structured financial workflow likely aligns with Claude Code conventions.","signals":["anthropic source","structured documents"]},
     {"name":"validate-idea","runtime":"claude-code","confidence":"medium","reason":"Reasoning-heavy validation workflow fits Claude Code style usage.","signals":["reasoning workflow","generic structure"]},
     {"name":"project-context-compactor","runtime":"codex","confidence":"high","reason":"The skill is explicitly written for Codex project context compression and recovery workflows.","signals":["codex-specific wording","context compaction workflow","local custom skill"]},
-    {"name":"prompt-optimizer","runtime":"codex","confidence":"medium","reason":"This local custom optimization skill is instruction-oriented but already authored for the user's Codex environment.","signals":["local custom skill","prompt transformation","system workflow"]}
+    {"name":"prompt-optimizer","runtime":"codex","confidence":"medium","reason":"This local custom optimization skill is instruction-oriented but already authored for the user's Codex environment.","signals":["local custom skill","prompt transformation","system workflow"]},
+    {"name":"ponytail-manual","runtime":"codex","confidence":"high","reason":"Manual-only Codex skill adapted from Ponytail for explicit invocation without hooks or global autoload.","signals":["local custom skill","codex manual invocation","no hooks","anti-overengineering"]}
   ]
 }

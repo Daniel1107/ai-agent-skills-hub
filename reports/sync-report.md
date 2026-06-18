@@ -1,6 +1,6 @@
 # Sync Report
 
-Generated: 2026-06-12T11:57:52.246Z
+Generated: 2026-06-18T00:55:41.914Z
 
 | Skill | Runtime | Enabled | Sync Status | Commit | Source | Path |
 |---|---|---|---|---|---|---|
@@ -22,6 +22,7 @@ Generated: 2026-06-12T11:57:52.246Z
 | minimax-xlsx | codex | true | synced | 60aaae52bb2af8162732751a4332f62a5fef518b | https://github.com/MiniMax-AI/skills | skills/minimax-xlsx |
 | network-interface-health | codex | true | synced | 16be4a68984385124431725a279a575816b85fd4 | https://github.com/affaan-m/ECC | skills/network-interface-health |
 | openai-whisper | codex | true | synced | 418d7e1e83c560c14139cd8c1e043b8f374a446c | https://github.com/openclaw/openclaw | skills/openai-whisper |
+| ponytail-manual | codex | true | synced | local | D:\51.AI\9.AI_SKILL\ponytail-manual | . |
 | ppt-generator | codex | false | disabled-invalid-source |  | https://github.com/microsoft/ppt-generator | . |
 | ppt-master | codex | true | synced | 2b337bec18c2cb1381fee2dfca2e6f6fed463ce6 | https://github.com/hugohe3/ppt-master | skills/ppt-master |
 | pptx | claude-code | true | synced | 57546260929473d4e0d1c1bb75297be2fdfa1949 | https://github.com/anthropics/skills | skills/pptx |

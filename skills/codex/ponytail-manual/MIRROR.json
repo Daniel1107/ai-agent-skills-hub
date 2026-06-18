@@ -1,0 +1,9 @@
+{
+  "name": "ponytail-manual",
+  "runtime": "codex",
+  "upstreamRepo": "D:\\51.AI\\9.AI_SKILL\\ponytail-manual",
+  "upstreamPath": ".",
+  "syncMode": "local-path",
+  "syncedAt": "2026-06-18T00:55:32.469Z",
+  "lastSyncedCommit": "local"
+}

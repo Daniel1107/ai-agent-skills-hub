@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "updatedAt": "2026-06-12T11:57:51.918Z",
+  "updatedAt": "2026-06-18T00:55:32.472Z",
   "entries": [
     {
       "name": "ppt-generator",
@@ -262,6 +262,14 @@
       "name": "prompt-optimizer",
       "syncStatus": "synced",
       "lastSyncedAt": "2026-06-12T11:57:51.917Z",
+      "lastSyncedCommit": "local",
+      "upstreamTag": null,
+      "upstreamVersion": null
+    },
+    {
+      "name": "ponytail-manual",
+      "syncStatus": "synced",
+      "lastSyncedAt": "2026-06-18T00:55:32.470Z",
       "lastSyncedCommit": "local",
       "upstreamTag": null,
       "upstreamVersion": null
